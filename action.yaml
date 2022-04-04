@@ -28,7 +28,7 @@ runs:
     - api-key=${{ inputs.api-key }}
     - token=${{ inputs.token }}
     - timeout=${{ inputs.timeout }}
-
+    - pull-request-number=${{ inputs.pull-request-number }}
 branding:
   icon: 'eye'
   color: 'green'
